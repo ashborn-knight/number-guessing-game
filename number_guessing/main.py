@@ -20,12 +20,12 @@ def number_guessing_game():
         elif guess > secret_number:
             print("Too high! Try again.\n")
         else:
-            print(f"🎉 Congratulations! You guessed the number {secret_number} in {attempts} attempts.")
+            print(f" Congratulations! You guessed the number {secret_number} in {attempts} attempts.")
             break
     else:
         # Runs only if the user didn't guess correctly
-        print(f"😢 Sorry, you've used all {max_attempts} attempts.")
+        print(f"Sorry, you've used all {max_attempts} attempts.")
         print(f"The correct number was {secret_number}.")
 
-# Run the game
 number_guessing_game()
+
